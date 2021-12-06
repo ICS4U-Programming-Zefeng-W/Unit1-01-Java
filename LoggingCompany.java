@@ -11,8 +11,8 @@ import java.util.Scanner;
 // class LoggingCompany.
 class LoggingCompany {
   // declare constants
-  final int logWeight = 20;
-  final int truckLimit = 1100;
+  final static int logWeight = 20;
+  final static int truckLimit = 1100;
 
   public static void main(String[] args) {
     System.out.println("What is the length of each log (0.25 metres, 0.50 metres, and 1 metres)?");
